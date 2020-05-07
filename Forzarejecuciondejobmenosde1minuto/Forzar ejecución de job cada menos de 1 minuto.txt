@@ -1,0 +1,5 @@
+Para forzar la revisión cada menos de un minuto
+
+1.HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\CWA\Logic\JM
+2.Crear Dword32, nombre: Interval 
+3.Indicar en decimal milisegundos de intervalo para la evaluacion de ejecucion de jobs - Ojo no poner menos de 500
